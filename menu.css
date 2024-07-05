@@ -1,0 +1,113 @@
+body {
+    background-color: #fdd29b;
+}
+
+
+.bas {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.stars {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    background-color: white;
+    border: solid greenyellow 1px;
+    padding: 5px 30px;
+    margin: 10px 10px 10px 0;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+.palt {
+    width: 33%;
+    text-align: center;
+}
+
+.plats {
+    display: flex;
+    width: 100%;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h2 {
+    border-bottom: solid blue 2px;
+}
+
+.plats2 {
+    display: flex;
+    text-align: center;
+}
+
+.bas2 {
+    text-align: center;
+}
+
+.Main2 {
+    text-align: center;
+}
+
+.bloc {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .plats,
+    .plats2 {
+        flex-wrap: wrap;
+    }
+
+    .palt {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navigation {
+        width: 90%;
+        font-size: small;
+        flex-direction: column;
+    }
+
+    .plats,
+    .plats2 {
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .palt {
+        width: 100%;
+    }
+
+    .etoiles {
+        width: 100%;
+    }
+}
+

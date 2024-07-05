@@ -1,0 +1,202 @@
+body {
+    background-color: #fdd29b;
+}
+
+
+.bas {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.stars {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    background-color: white;
+    border: solid greenyellow 1px;
+    padding: 5px 30px;
+    margin: 10px 10px 10px 0;
+}
+
+.stars {
+    text-align: center;
+}
+
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.palt {
+    margin: 0 2% 2% 2%;
+    box-shadow: 0px 0px 3px 1px rgba(128, 128, 128, 1);
+    border-radius: 3px;
+}
+
+.plats {
+    display: flex;
+    width: 100%;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h2 {
+    border-bottom: solid blue 2px;
+}
+
+.plats2 {
+    display: flex;
+    text-align: center;
+}
+
+.bas2 {
+    text-align: center;
+}
+
+.Main2 {
+    text-align: center;
+}
+
+.guest {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid brown 1px;
+}
+
+.plats2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+
+
+.platsmillieu {
+    display: flex;
+}
+
+.order {
+    display: flex;
+    color: #68391a;
+}
+
+.description2 {
+    text-align: center;
+}
+
+.text {
+    width: 100%;
+}
+
+.troisiemepartie {
+    width: 25%;
+    border: solid #68391a 1px;
+
+}
+
+.deuxiemeorder {
+    width: 60%;
+    border: solid #68391a 1px;
+}
+
+.premierorder {
+    width: 15%;
+    border: solid #68391a 1px;
+    color: #68391a;
+
+}
+
+.myorder {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #68391a 1px;
+    color: #68391a;
+}
+
+.shop {
+    text-align: center;
+    border-bottom: solid #68391a 2px;
+    color: #68391a;
+}
+
+.shop img {
+    width: 30%;
+}
+
+.ordertext {
+    margin: 0 5%;
+    color: #68391a;
+}
+
+.special {
+    border-bottom: solid #68391a 1px;
+
+}
+
+.ordernow {
+    text-align: center;
+    background-color: #68391a;
+    font-weight: bolder;
+    padding: 6% 0;
+    color: white;
+}
+
+.premiertext {
+    padding: 0 0 0 5%;
+    color: #68391a;
+}
+
+.millieu2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7.5%;
+
+}
+
+.ligne {
+    border-bottom: solid #68391a 1px;
+}
+
+.bloc {
+    width: 1500px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1400px) and (min-width: 100px) {
+    .bloc {
+        width: 90%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .navigation {
+        width: 90%;
+        font-size: small;
+    }
+
+
+}

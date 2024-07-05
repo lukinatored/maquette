@@ -1,0 +1,78 @@
+body{
+    background-color:#fdd29b;
+}
+.navigation2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.cupcake{
+    width: 200px;
+    height: 250px;
+    border: solid white 2px;
+    margin: 10px 10px 10px 0;
+}
+.cupcake6{
+    display: flex;
+    justify-content: center;
+}
+.cupcake6 img{
+ width: 60%;
+}
+.sociallogo{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: row;
+}
+.sociallogo img {
+    width: 30px;
+}
+.bas{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.stars {
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    background-color: white;
+    border: solid greenyellow 1px;
+    padding: 5px 30px;
+    margin: 10px 10px 10px 0;
+}
+.bloc {
+    width: 1500px;
+    text-align: center;
+}
+@media screen and (max-width: 1400px) and (min-width: 100px) {
+    .bloc {
+        width: 90%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .navigation {
+        width: 90%;
+        font-size: small;
+    }
+
+
+}

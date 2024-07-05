@@ -1,0 +1,89 @@
+body {
+    background-color: #fdd29b;
+}
+
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.stars {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    background-color: white;
+    border: solid greenyellow 1px;
+    padding: 5px 30px;
+    margin: 10px 10px 10px 0;
+}
+
+.contactpara {
+    display: flex;
+    background-color: white;
+}
+
+.renseignement {
+    display: flex;
+    flex-direction: column;
+}
+
+.para2 {
+    text-align: center;
+    width: 400px;
+}
+
+.contactpara img {
+    width: 400px;
+    margin: 20px;
+}
+
+main {
+    padding: 50px 50px 50px 200px;
+}
+
+.carte {
+    text-align: center;
+    background-color: white;
+
+}
+.bloc {
+    width: 1500px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 768px){
+    .bloc {
+        width: 90%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .navigation {
+        width: 90%;
+        font-size: small;
+    }
+    .carte{
+        width: 90%!important;
+    }
+    .renseignement{
+        width: 90%;
+    }
+
+
+}
